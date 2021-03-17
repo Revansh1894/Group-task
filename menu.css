@@ -1,0 +1,115 @@
+body{
+    margin: 0px;
+}
+
+.gmenu{
+    width: 100%;
+    overflow: auto;
+    background-color: rgb(255, 244, 244);
+    height: 100%;
+}
+
+.gtitle{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    overflow: auto;
+    margin-top: 100px;
+}
+
+.grule{
+    float: left;
+    width: 30px;
+    background-color: red;
+    height: 1px;
+    color: red;
+    border: none;
+    outline: none;
+}
+
+.gmen{
+    display: inline; 
+}
+
+.ghead{
+    float: left;
+    color: red;
+    margin-left: 10px;
+}
+
+.ghr{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.gtwo{
+    width: 250px;
+    
+}
+
+.gone{
+    width: 80%;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.gthree{
+    width: 250px;
+    font-size: 25px;
+    
+}
+
+.gfour{
+    width: 100%;
+    
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.gfive{
+    height: 350px;    
+    flex: 20%;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 500px;
+}
+
+.gsix{    
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 100%;
+}
+
+#gone{
+    background-image: url(menu-item-01.jpg);
+}
+#gtwo{
+    background-image: url(menu-item-02.jpg);
+}
+#gthree{
+    background-image: url(menu-item-03.jpg);
+}
+#gfour{
+    background-image: url(menu-item-04.jpg);
+}
+#gfive{
+    background-image: url(menu-item-05.jpg);
+}
+#gsix{
+    background-image: url(menu-item-06.jpg);
+}
+
+.gseven{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+    
+}
+
