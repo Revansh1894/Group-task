@@ -1,0 +1,31 @@
+* {
+          box-sizing: border-box;
+          }
+		.row1r {  
+             display: -ms-flexbox; 
+             display: flex;
+             -ms-flex-wrap: wrap; 
+             flex-wrap: wrap;
+             padding-left: 20px;
+             }
+         .col-33rr{
+                -ms-flex: 33.33%;
+                 flex: 33.33%;
+		        }
+		 .col-56rr{
+		 	-ms-flex:56%;
+		 	flex: 56%;
+		 }
+		 .col-44rr{
+		 	-ms-flex:44%;
+		 	flex:44%;
+		 }       
+		 @media screen and  (max-width: 1000px) {
+  .row1r, .col-44rr, .col-56rr {
+    flex: 100%;}
+               }
+               @media screen and (max-width: 200px){
+               	.col-33rr{
+               		flex: 100%;
+               	}
+               }
