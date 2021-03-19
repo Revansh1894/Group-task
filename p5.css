@@ -1,0 +1,100 @@
+.rowr {  
+             display: -ms-flexbox; 
+             display: flex;
+             -ms-flex-wrap: wrap; 
+             flex-wrap: wrap;
+             padding-left: 20px;
+             }
+         .col-50r{
+                -ms-flex: 50%;
+                 flex: 50%;
+		        }
+		 .col-60r{
+		 	-ms-flex:60%;
+		 	flex: 60%;
+		 }
+		 .col-40r{
+		 	-ms-flex:40%;
+		 	flex:40%;
+		 }
+		 .col-30r{
+		 	-ms-flex:30%;
+		 	flex:30%;
+		 }
+		 .col-41r{
+		 	-ms-flex:41%;
+		 	flex: 41%;
+		 }
+		.a1r{
+            background-image: linear-gradient( rgba(0, 0,0, 0.73), rgba(0, 0, 0, 0.73) ),url('slide-01.jpg');
+            background-color: rgba(10,40,170,60);
+            opacity: 20px;
+
+		}
+         i {
+            width: 66px;
+            height: 56px;
+            display: inline-block;
+            text-align: center;
+            line-height: 70px;
+            color: #fff;
+            background-color: #fb5849;
+            border-radius: 50%;
+            font-size:24px;
+            margin-top: -35px;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 8px;
+            position: relative;
+            transform: translate(20%,-40%);
+            padding-top: 10px;
+            padding-left: 5px;
+            padding-right: 8px
+            vertical-align: center
+           }
+          col-41r.phoner{
+           position: relative;
+           transform: translate(50%,-60%);
+          }
+          .a2r{
+          	background-color: white;
+          	width: 100%;
+          	text-align: center;
+          	padding left: 20px;
+          	padding-right: 20px; 
+          }
+          .containerr {
+          background-color: white ;
+          padding: 5px 10px 15px 10px;
+          border: 1px solid lightgrey;
+          border-radius: 1px;
+		 }
+		input[type=text], select {
+  
+ 		 padding: 15px 25px;
+  		 display: block;
+  		 border: 1px solid #ccc;
+  		 border-radius: 1px;
+  
+		}
+		.submitR{
+		 width: 100%;
+		 height: 40px;
+		 color: white;
+		 background-color: tomato;
+		}
+		.submitR:hover{
+	     color: white;
+	     background-color: #FA7F7F;
+        }
+        .a3r{
+        	color: black;
+        }
+        .a3r:hover{
+        	color: tomato;
+        }
+         @media screen and  (max-width: 1000px) {
+  .col-40r {
+    flex: 100%;}
+               }
